@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Delete Form</title>
+</head>
+<body>
+	<table>
+			<tr><th>Delete Form</th></tr>
+		</table>
+		<p> Please fill the form</p>
+		<fieldset>
+			<form action = "AdminServlet"  method = "POST">
+				<input type="hidden" name="operation" value="delete">
+				AMKA(to be deleted)  :
+				<input type = "text" name = "amka"><br>
+				<br><br><input type = "submit">
+			</form>
+		</fieldset>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert Form</title>
+</head>
+<body>
+	<table>
+			<tr><th>Insert Form</th></tr>
+		</table>
+		<p> Please fill the form</p>
+		<fieldset>
+			<form action = "AdminServlet"  method = "POST">
+				<input type="hidden" name="operation" value="insertpatient">
+				AMKA  :
+				<input type = "text" name = "patientamka"><br>
+				Userid  :
+				<input type = "text" name = "userid"><br>
+				Password  :
+				<input type = "password" name = "password"><br>
+				Name   :
+				<input type = "text" name = "name"><br>
+				Surname   :
+				<input type = "text" name = "surname"><br>
+				Gender   :
+				<select id="gender" name="gender">
+  					<option value="Male"  >Male</option>
+  					<option value="Female"  >Female</option>
+  				
+				</select> 
+				<br><br><input type = "submit">
+			</form>
+		</fieldset>
+</body>
+</html>

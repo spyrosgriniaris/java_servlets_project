@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cancel Appointments</title>
+</head>
+<body>
+	<table>
+			<tr><th>Cancel Appointments</th></tr>
+		</table>
+	
+		
+		<fieldset>
+			<form action = "DoctorServlet"  method = "POST">
+				<input type="hidden" name="operation" value="Cancel Appointment">
+				Enter the ID of the appointments you want to Cancel <br><br>
+				ID   :
+				<input type = "text" name = "id"><br>
+			
+				
+				<br><br><input type = "submit">
+			</form>
+		</fieldset>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Enter Availiability</title>
+</head>
+<body>
+	<table>
+			<tr><th>Enter Availiability</th></tr>
+		</table>
+	
+		
+		<fieldset>
+			<form action = "PatientServlet"  method = "POST">
+				<input type="hidden" name="operation" value="Choose Specialty">
+				Choose Specialty of Doctor you want <br><br>
+				
+				
+				 
+				<select id="specialty" name="specialty">
+  					<option value="1" >Accident and Emergency </option>
+  					<option value="2" >Cardiologist</option>
+  					<option value="3" >Gastroenterologist</option>
+ 					<option value="4" >General Surgery</option>
+ 					<option value="5" >Nephrologist</option>
+  					<option value="6"  >Neurologist</option>
+  					<option value="07"  >Oncologist</option>
+ 					<option value="08"  >Opthalmologist</option>
+ 					<option value="09"  >Orthoapedist</option>
+  					<option value="10"  >Physiotherapist</option>
+  					<option value="11"  >Occupational Therapist</option>
+ 					<option value="12"  >Radiotherapist</option>
+ 					<option value="13"  >Urologist</option>
+  					<option value="14"  >Gynecologist</option>
+  					<option value="15"  >Breast Screening</option>
+  				
+				</select> 
+			
+				
+				<br><br><input type = "submit">
+			</form>
+		</fieldset>
+</body>
+</html>

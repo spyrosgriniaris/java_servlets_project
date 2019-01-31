@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert Form</title>
+</head>
+<body>
+	<table>
+			<tr><th>Insert Form</th></tr>
+		</table>
+		<p> Please fill the form with Doctor's data</p>
+		
+		<fieldset>
+			<form action = "AdminServlet"  method = "POST">
+				<input type="hidden" name="operation" value="insert">
+				AMKA   :
+				<input type = "text" name = "amka"><br>
+				Username   :
+				<input type = "text" name = "username"><br>
+				Password         :
+				<input type = "password" name = "password"><br>
+				Name   :
+				<input type = "text" name = "name"><br>
+				Surname   :
+				<input type = "text" name = "surname"><br>
+				Department of action   :
+				 <select id="specialty" name="specialty">
+  					<option value="1" >Accident and emergency </option>
+  					<option value="2" >Cardiology</option>
+  					<option value="3" >Gastroenterology</option>
+ 					<option value="4" >General Surgery</option>
+ 					<option value="5" >Nephrology</option>
+  					<option value="6"  >Neurology</option>
+  					<option value="7"  >Oncology</option>
+ 					<option value="8"  >Ophthalmology</option>
+ 					<option value="9"  >Orthopaedics</option>
+  					<option value="10"  >Physiotherapy</option>
+  					<option value="11"  >Occupational Therapy</option>
+ 					<option value="12"  >Radiotherapy</option>
+ 					<option value="13"  >Urology</option>
+  					<option value="14"  >Gynecology</option>
+  					<option value="15"  >Breast Screening</option>
+				</select> 
+				<br><br><input type = "submit">
+			</form>
+		</fieldset>
+</body>
+</html>

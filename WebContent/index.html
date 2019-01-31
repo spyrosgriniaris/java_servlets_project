@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Form</title>
+</head>
+<body>
+	<table>
+			<tr><th>Login Form</th></tr>
+		</table>
+		<p> Please fill the form in order to login in the system</p>
+		<p> Use your username to login only if you are an Admin</p>
+		<fieldset>
+			<form action = "UserServlet" method = "POST">
+				AMKA / Username  :
+				<input type = "text" name = "amka"><br>
+				Password         :
+				<input type = "password" name = "password"><br>
+				Category :<br>
+				<input type = "radio" name = "category" value = "Patient">Sign in as patient <br>
+				<input type = "radio" name = "category" value = "Doctor">Sign in as doctor <br>
+				<input type = "radio" name = "category" value = "Admin">Sign in as admin <br>
+				<input type = "radio" name = "category" value = "Sign up">Sign up if you have no account in the System<br>
+				<input type = "submit">
+			</form>
+		</fieldset>
+</body>
+</html>
